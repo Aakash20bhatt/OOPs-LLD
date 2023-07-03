@@ -19,4 +19,9 @@ public class Person {
         System.out.println("My age is : "+this.age);
         System.out.println();
     }
+
+    @Override
+    protected void finalize() throws Throwable { // Used to close the files or ports that is remain opened by object.
+        super.finalize();
+    }
 }
