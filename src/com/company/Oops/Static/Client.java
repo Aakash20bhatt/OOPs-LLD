@@ -16,5 +16,7 @@ public class Client {
         s1.schoolName = "KRM";
 
         System.out.println(s2.schoolName);
+
+        System.out.println(CustomMath.abs(-5));
     }
 }
