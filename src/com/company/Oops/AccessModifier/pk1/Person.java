@@ -5,6 +5,8 @@ public class Person {
     int d2;
     private int d3;
 
+    
+
     void display(){
         d1 = 10;
         d2 = 20;
