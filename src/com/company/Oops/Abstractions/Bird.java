@@ -7,6 +7,6 @@ public abstract class  Bird {
     int strength;
 
     public void fly(){
-        // implementation on specific bird type
+        // implementation on specific bird type 
     }
 }
